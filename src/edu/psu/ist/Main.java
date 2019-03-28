@@ -12,5 +12,9 @@ public class Main {
         DevilFood devilCake = new DevilFood();
         System.out.println("Devils's Food Ingredients");
         devilCake.printIngredients();
+
+        BundtCake bundtCake = new BundtCake();
+        System.out.println("Bundt's Food Ingredients");
+        bundtCake.printIngredients();
     }
 }
